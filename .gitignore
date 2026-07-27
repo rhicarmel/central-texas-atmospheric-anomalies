@@ -76,7 +76,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # IPython
 profile_default/
@@ -216,3 +216,57 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------
+# Project-specific exclusions
+# ---------------------------------------
+
+# macOS
+.DS_Store
+._*
+
+# Local credentials and API tokens
+*.pem
+*.key
+credentials.json
+secrets.json
+.netrc
+
+# Downloaded and generated data
+data/raw/*
+data/processed/*
+data/interim/*
+data/external/*
+
+# Keep folder structure and documentation
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/interim/.gitkeep
+!data/external/.gitkeep
+!data/**/README.md
+
+# Large scientific and raster files
+*.nc
+*.nc4
+*.hdf
+*.hdf4
+*.hdf5
+*.he5
+*.grib
+*.grib2
+*.tif
+*.tiff
+*.gpkg
+
+# Compressed downloads
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+~$*
