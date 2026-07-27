@@ -1,4 +1,7 @@
 # Central Texas Atmospheric Anomalies
+> 🚧 **Under Construction**
+>
+> This project is in active development. The research design, documentation, datasets, and methods will evolve as the investigation progresses.
 
 A data science investigation of whether atmospheric aerosol observations provide additional predictive information about tornado occurrence in Central Texas.
 
