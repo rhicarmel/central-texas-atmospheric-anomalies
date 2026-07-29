@@ -6,7 +6,7 @@ Central Texas experiences severe thunderstorms, tornadoes, flash flooding, hail,
 
 This project was created to investigate whether aerosol observations provide additional information about tornado occurrence beyond established meteorological variables such as atmospheric instability, moisture, and wind shear.
 
-## Public-Safety Motivation
+## Public Safety Motivation
 
 Severe-weather forecasting has direct consequences for public safety. Even modest improvements in identifying hazardous conditions could support earlier warnings, better preparedness, and more informed emergency planning.
 
